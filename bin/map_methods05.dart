@@ -5,13 +5,13 @@ change it to surname
 */
 
 void main() {
-  Map mp = {'ismim': 'axror', 'Familyam': 'Raximov'};
+  Map mp = {'ismim': 'axror', 'Fami_lyam': 'Raximov'};
   print(func(mp));
 }
 
 Map func(Map data) {
-  String a = data['Familyam'];
-  data.remove('Familyam');
+  String a = data['Fami_lyam'];
+  data.remove('Fami_lyam');
   //your code here
   data['surname'] = a;
 
