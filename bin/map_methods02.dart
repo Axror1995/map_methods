@@ -8,7 +8,7 @@ void main() {
 
 Map func(Map data, int cost) {
   //your code here
-  data['price'] = 8;
+  data['price'] = cost;
 
   return data;
 }
